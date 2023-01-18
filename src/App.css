@@ -1,7 +1,50 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.app {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: center;
 }
 
+.header{
+  background-color: #6aa84f;
+  height: 200px;
+  width: 98.1%;
+  margin-bottom: 20px;
+}
+.navigation{
+  width: 15%;
+  background-color: #6fa8dc;
+  height: 600px;
+  margin-right: 20px;
+}
+.main{
+  background-color: #e06666;
+  width: 82%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px 80px;
+}
+.subContents{
+  background-color: #ffd966;
+  /* margin: 2px; */
+  flex: 1;
+  height: 70%;
+  
+  /* width: 30%; */
+}
+
+.advertisement{
+  background-color: #b4a7d6;
+  height: 25%;
+  width: 100%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
